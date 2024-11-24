@@ -1,7 +1,17 @@
-#activate venv in git bash -
+# FastAPI Todo App
+
+A simple Todo application built using FastAPI.
+
+## Setup and Usage
+
+### Step 1: Set Up a Virtual Environment
+
+#### Activate venv in Git Bash:
+
+```bash
 source ./venv/Scripts/activate
 
-#activate venv in command prompt -
+# Activate venv in Command Prompt:
 .\venv\Scripts\activate
 
 #setup venv
@@ -15,3 +25,4 @@ pip install uvicorn
 pip install uvicorn[standard]
 
 localhoad:port/docs for swager UI
+```
