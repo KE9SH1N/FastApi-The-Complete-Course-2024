@@ -10,19 +10,40 @@ A simple Todo application built using FastAPI.
 
 ```bash
 source ./venv/Scripts/activate
+```
 
 # Activate venv in Command Prompt:
+
+```bash
 .\venv\Scripts\activate
+```
 
-#setup venv
+# Setup venv
+
+```bash
 python -m venv venv
+```
 
-#run this project
+# Run this project
+
+```bash
 python -m uvicorn main:app --reload
+```
 
-#uvicorn setup
+# uvicorn setup
+
+```bash
 pip install uvicorn
-pip install uvicorn[standard]
+```
 
-localhoad:port/docs for swager UI
+```bash
+pip install uvicorn[standard]
+```
+
+# local host port
+
+localhost:port/docs for swager UI
+
+```
+
 ```
